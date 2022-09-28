@@ -94,12 +94,53 @@
 
     <form>
         <fieldset>
-            <legend> Datos del usuario </legend>
-            <p> Introduce tu nombre <br>
-            <input type="text" name="username"></p>
-            <p> Introduce un sobrenombre </p>
-            <input type="text" name="sobrename"></p>
+            <legend> <b>Datos del Usuario</b> </legend>
+
+            <label for="sobrename">SobreNombre: </label><br>
+            <input type="text" id="Surname" name="sobrename" maxlength="12" minlength="3" placeholder="Ex: El Guapo" size="15" required/> <br/>
+
+            <p>Nombre:<input type="text" name="firstname" maxlength="15" minlength="3"/> </p>
+
+            <label for="password1">Contraseña: </label>
+            <input type="password" id="password1" name="password1" maxlength="12"/> <br/>
+
         </fieldset>
+
+        <br><label for="email">Email: </label>
+        <input type="email" id="email" name="email"/> <br/>
+
+        Género: <br>
+        <input type="radio" id="gender" name="gender" value="pop"/>Pop<br>
+        <input type="radio" id="gender" name="gender" value="met"/>Metal<br>
+        <input type="radio" id="gender" name="gender" value="other"/>Otro <br>
+
+        Preferidas:<br>
+        <input type="checkbox" id="Hawaiiana" name="Hawaiiana" value="Hawaiiana"/>Hawaiiana<br>
+        <input type="checkbox" id="Pepe" name="Pepe" value="Pepe"/>Peperonni<br>
+        <input type="checkbox" id="cheese" name="cheese" value="cheese"/>
+        <label for="cheese">Cheese</label><br>
+        <input type="checkbox" id="muscle" name="muscle" value="muscle"/>MuscleMommies<br>
+        <input type="checkbox" id="gotic" name="gotic" value="gotic"/>Góticas<br>
+
+        <input type="tel" id="cel" name="cel" min="5" max="15" placeholder="01 800 0464">
+        <label for="cel" >Celular</label><br>
+
+        Ingresa tu opinión:<br>
+        <textarea rows="2" cols="20"></textarea><br>
+
+        <label for="lang">Language</label>
+        <select name="languages" id="lang">
+          <option value="esp">Español</option>
+          <option value="eng">English</option>
+          <option value="fr">Francais</option>
+          <option value="dut">Dutch</option>
+          <option value="it">Italianno</option>
+          <option value="jp">Japones</option>
+        </select><br>
+
+        <input type="reset" value="Reseteo">
+
+        <input type="submit" value="Enviar">
     </form>
 
     <h3>Referencias</h3><p>Para saber más sobre pizza italinas puedes visitar <a href="https://www.sorbillo.it/" target="_hblank"><b>Gino e Toto Sorbillo</b></a>.<br>Si quieres ver la receta original visita <a href="https://www.tavolartegusto.it/ricetta/pizza-fatta-in-casa-ricetta-e-segreti/"><b>Tavolarte Gusto</b></a>.</p><br>
