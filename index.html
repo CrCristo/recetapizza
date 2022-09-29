@@ -113,11 +113,11 @@
             <input type="email" id="email" name="email"/>
         </fieldset><br/>
 
-        <!-- Esto permite que haya opcion multiple pero solo se pueda escoger una  -->
+        <!-- Esto permite que haya opcion multiple pero solo se pueda escoger una, la etiqueta label permite que el campo de accion se esxtienda hasta la parte del texto y no se limite uncamente a el circulo de selecion -->
         Género: <br>
         <label><input type="radio" id="gender" name="gender" value="pop"/>Pop<br></label>
-        <input type="radio" id="gender" name="gender" value="met"/>Metal<br>
-        <input type="radio" id="gender" name="gender" value="other"/>Otro <br><br>
+        <label> <input type="radio" id="gender" name="gender" value="met"/>Metal</label><br>
+        <label><input type="radio" id="gender" name="gender" value="other"/>Otro</label> <br><br>
 
         <!-- Esto permite que haya opcion multiple y se escojan varias a la vez -->
         Preferidas:<br>
@@ -135,6 +135,12 @@
         Ingresa tu opinión:<br>
         <textarea rows="2" cols="20"></textarea><br>
 
+        <!-- EWsot permite agregar una fecha -->
+        <input type="date" id="fecha" min="2022-01-12" max="2022-12-12"><br>
+
+        <!-- Esto permite que se agreguen archivos desde el computador. Se puede especificar que tipo de archivos queremos que reciban -->
+        <input type="file"><br>
+
         <!-- Esto permite que se cree un lista de opciones -->
         <label for="lang">Language</label>
         <select name="languages" id="lang">
@@ -146,6 +152,7 @@
           <option value="jp">Japones</option>
         </select><br>
 
+        <!-- Esti permite que se resetee el formulario -->
         <input type="reset" value="Reseteo">
 
         <input type="submit" value="Enviar">
