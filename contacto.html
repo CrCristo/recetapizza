@@ -12,7 +12,7 @@
 
     <form action="" method="">
         <!-- <form action="http://formspree.io/you@email.com" method="post"> esto se hace cuando quieras enviar el formulario a tu correo -->
-        <!-- ESto es oara que haya un marco que rodee las preguntas otra forma tambien es <form action="mailto:contact@yourdomain.com" method="POST" enctype="multipart/form-data" name="EmailForm"> -->
+        <!-- ESto es oara que haya un marco que rodee las preguntas otra forma tambien es <form action="mailto:contact@yourdomain.com" method="POST" enctype="multipart/form-data" name="EmailForm"   en general lo que se hace es <form action="/action_page.php" method="get">> -->
         <!-- ESto es oara que haya un marco que rodee las preguntas  -->    
         <fieldset>
             <legend> <b>Datos del Usuario</b> </legend>
@@ -77,6 +77,11 @@
 
         <!-- Esto permite qu se envie, para que se envie podemos usar la pagina https://formspree.io/, sin embargo esto no es muy seguro pues estamos usando programas externos que no sabemos si son muy seguros -->
         <input type="submit" value="Enviar">
-    </form>    
+    </form>
+    <!-- All data that comes to your server must be checked and sanitized. Always. No exception.
+
+    Escape potentially dangerous characters. The specific characters you should be cautious with vary depending on the context in which the data is used and the server platform you employ, but all server-side languages have functions for this. Things to watch out for are character sequences that look like executable code (such as JavaScript or SQL commands).
+    Limit the incoming amount of data to allow only what's necessary.
+    Sandbox uploaded files. Store them on a different server and allow access to the file only through a different subdomain or even better through a completely different domain.-->
 </body>
 </html>
