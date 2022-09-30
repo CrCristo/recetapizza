@@ -8,13 +8,15 @@
 </head>
 <body>
     <!-- agregando un menu comn la etiqueta nav y header -->
+    <!-- Para poder poner un hipervinculo necesito que los dos scripts esten en la misma carpeta, para ello utilizamos la etiqueta button y a href=-->
     <header> 
         <nav> 
           <a href="#">Inicio</a>
           <a href="#">Cursos</a>
-          <a href="#">Conócenos</a>
+          <button><a href="contacto.html">Contacto</a></button>
         </nav>
     </header>
+
     <!-- agregando un archivo de audio desde el internet-->
     <div data-video="EDbCw_LD5nM"
         data-autoplay="0"
@@ -23,10 +25,12 @@
     </div>
     <script src="https://www.youtube.com/iframe_api"></script>
     <script src="https://cdn.rawgit.com/labnol/files/master/yt.js"></script>
+
     <!-- agregando un archivo de audio en la etiqueta <audio> -->
     <audio class="Audio-1" src="https://www.youtube.com/watch?v=KknZcH0rvBY" controls data-autoplay="0" data-loop="1" >
     </audio>
-    
+
+    <!-- La etiqueta article es supuestamente lo que separa al contenido mas erscencial de la pagina de los adornos -->
     <article class="">
         <h1>Pizza italiana en casa</h1>
     </article>
