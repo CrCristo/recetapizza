@@ -1,0 +1,13 @@
+body{
+    color: brown;
+    background-color: blanchedalmond;
+    
+}
+p{
+    color: rgb(109, 74, 29);
+    background-color: rgb(207, 214, 214);
+    font-size: medium;
+    font-family: 'Gemunu Libre', sans-serif;
+    /* Revisar las fuentes en google fonts , revisamos la fuente que nos gusta  "le ponemos en el signo de más para agregarla" finalmente copiamos el codigo html para descargarlo en la pagina para todos los disositivos o copiamos el css para la funte en especifico*/
+    /* Para agregarle el mismo estilo a todas las etiquetas sel o aplicaremos diectamente a la etiqueta body */
+}
