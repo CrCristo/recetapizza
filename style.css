@@ -2,6 +2,7 @@ body{
     color: brown;
     background-color: blanchedalmond;
     text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
 }
 header{
     background-color: rgb(230, 186, 132);
