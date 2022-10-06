@@ -64,6 +64,7 @@ p{
          CLASE PARA SOMBRA DE TEXTO 
         .sombra{
             text-shadow: 3px 3px 2px rgb(212, 111, 98);
+        Primer valor para sabe rsi sale arriba o abajo, el segundo para izq o derecha y el ultimo poara la intensidad de la sombre
         }
 
         ESTILOS PARA LOS BOTONES DEL MENU 
